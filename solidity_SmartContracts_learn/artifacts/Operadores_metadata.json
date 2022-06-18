@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "operacion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"operadores.sol": "Operadores"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"operadores.sol": {
+			"keccak256": "0x8b264a0b2e5643f3922ef09d30aa9cccc2374b8a691e61ae6bd47aa35e38dac4",
+			"urls": [
+				"bzz-raw://6701796364159ec323974204eb36f02b86f5e78d0d68953760e925d954c858c8",
+				"dweb:/ipfs/QmdHwYY3ETtnbjmYtRwHPMsARK5DdXNCb72vjSevF2V1uQ"
+			]
+		}
+	},
+	"version": 1
+}

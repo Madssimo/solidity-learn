@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "validateAmount",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"condicionales.sol": "Condicionales"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"condicionales.sol": {
+			"keccak256": "0xdcb56d4fade41e4629c2d84659b38c905e24ed48b8e44a01f806ea8e1f9c87fa",
+			"urls": [
+				"bzz-raw://61afdcdb6399addd942375dbe02f4ab6c3a88653f10b3fb6104491f3e04d5d9c",
+				"dweb:/ipfs/QmT7aAMcWWpEkNgM3B55aXuy8M88muMxFPZx2GrNz3YQv5"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numero",
+						"type": "uint256"
+					}
+				],
+				"name": "forFunc",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ciclos.sol": "Ciclos"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ciclos.sol": {
+			"keccak256": "0x09865af1174d716d2b892cfc2c6318a7a7dceaecd26dffa508058ebe7034b24d",
+			"urls": [
+				"bzz-raw://6d9ced7d94155b5b12c82ba4048e3b1ba61521e1a4e1bc7f170cea040a3d3de8",
+				"dweb:/ipfs/QmUWoaPhiJVWiwXw7eX8emnxQoDDjHWiE7ZWqXXttXPMxD"
+			]
+		}
+	},
+	"version": 1
+}
