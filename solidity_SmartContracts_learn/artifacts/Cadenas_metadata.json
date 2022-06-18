@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "numero",
-						"type": "uint256"
-					}
-				],
-				"name": "forFunc",
+				"inputs": [],
+				"name": "hola",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "string",
 						"name": "",
-						"type": "bool"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -26,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "numerosPares",
+				"name": "obtenerCaracteres",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -51,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ciclos.sol": "Ciclos"
+			"cadenas.sol": "Cadenas"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -65,11 +59,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Ciclos.sol": {
-			"keccak256": "0xf2667d5b58a5f4eec576daf0bc9c0c7cc7986294af63659316465ea75b4177ea",
+		"cadenas.sol": {
+			"keccak256": "0x80f9c709895d0b8adfc1faabcf61ce7cb07656ed2c3d594b75860ed702f5d5db",
 			"urls": [
-				"bzz-raw://691fa673e2e9f9192055b399b0fdaa8de2348d6a229a31bd6076d62e928ab1d3",
-				"dweb:/ipfs/QmQY7EdeQwvWi7vYTFRRW5j791YeXzFWDcFj7TGiuZYM74"
+				"bzz-raw://4d856d43b47fbc335ad7e317e23ae758a9997a9bcf229bbf3ae71e393718e329",
+				"dweb:/ipfs/QmV68T2B4GD7Q7iSyXv7g4ZPVgVH2qbuPP2cs3rMBkmYa1"
 			]
 		}
 	},

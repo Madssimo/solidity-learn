@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "numero",
-						"type": "uint256"
-					}
-				],
-				"name": "forFunc",
+				"inputs": [],
+				"name": "getChoice",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "enum enums.tamanoPapas",
 						"name": "",
-						"type": "bool"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -26,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "numerosPares",
+				"name": "getDefaultChoice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -35,6 +29,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSmall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -51,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ciclos.sol": "Ciclos"
+			"enums.sol": "enums"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -65,11 +66,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Ciclos.sol": {
-			"keccak256": "0xf2667d5b58a5f4eec576daf0bc9c0c7cc7986294af63659316465ea75b4177ea",
+		"enums.sol": {
+			"keccak256": "0x5f705232637b6237fb3c4ae864d2cf5f4269c8a3a557cbae91a0cd12705f19dd",
 			"urls": [
-				"bzz-raw://691fa673e2e9f9192055b399b0fdaa8de2348d6a229a31bd6076d62e928ab1d3",
-				"dweb:/ipfs/QmQY7EdeQwvWi7vYTFRRW5j791YeXzFWDcFj7TGiuZYM74"
+				"bzz-raw://7d8162375547e0af66656780bb071d1385eba9d29e5e5fe2eedbf4f95b094878",
+				"dweb:/ipfs/QmYxXTHwV8gBPfGfQYUvBqjPptNC6evuEE8CfHTZmt44LN"
 			]
 		}
 	},

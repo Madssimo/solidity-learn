@@ -8,30 +8,27 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
-						"name": "numero",
+						"name": "a",
 						"type": "uint256"
 					}
 				],
-				"name": "forFunc",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "numerosPares",
+				"name": "getName",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -51,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ciclos.sol": "Ciclos"
+			"constructores.sol": "Instructor"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -65,11 +62,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Ciclos.sol": {
-			"keccak256": "0xf2667d5b58a5f4eec576daf0bc9c0c7cc7986294af63659316465ea75b4177ea",
+		"constructores.sol": {
+			"keccak256": "0x33ba5b6f1cb3c8c4d6bbaf9b144a4e833e607dd76d7053d36244e2b3cd350fc9",
 			"urls": [
-				"bzz-raw://691fa673e2e9f9192055b399b0fdaa8de2348d6a229a31bd6076d62e928ab1d3",
-				"dweb:/ipfs/QmQY7EdeQwvWi7vYTFRRW5j791YeXzFWDcFj7TGiuZYM74"
+				"bzz-raw://288c78289a36d24087b7013f589fdce38248d6839b88780c2b09f0922dfbab9a",
+				"dweb:/ipfs/QmP2X6jb6dMfJ9PnHvSUPsKpxRagFwVjUdHYcaRkyfvkc1"
 			]
 		}
 	},

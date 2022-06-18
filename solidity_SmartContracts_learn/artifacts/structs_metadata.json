@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "numero",
-						"type": "uint256"
-					}
-				],
-				"name": "forFunc",
+				"inputs": [],
+				"name": "getBookAutor",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "string",
 						"name": "",
-						"type": "bool"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -26,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "numerosPares",
+				"name": "getBookID",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -35,6 +29,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -51,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ciclos.sol": "Ciclos"
+			"structs.sol": "structs"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -65,11 +66,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Ciclos.sol": {
-			"keccak256": "0xf2667d5b58a5f4eec576daf0bc9c0c7cc7986294af63659316465ea75b4177ea",
+		"structs.sol": {
+			"keccak256": "0x2d7dcd061c8459a7d174b76deb8000fd30421cb4cdf18b62ada806ae44ed398d",
 			"urls": [
-				"bzz-raw://691fa673e2e9f9192055b399b0fdaa8de2348d6a229a31bd6076d62e928ab1d3",
-				"dweb:/ipfs/QmQY7EdeQwvWi7vYTFRRW5j791YeXzFWDcFj7TGiuZYM74"
+				"bzz-raw://7e1322679919ba3635404603faa84e2fe73894e5b7acc877c20d03a0f31ea7bb",
+				"dweb:/ipfs/QmWxzR7DdNrmzfkdtoWtidj3DpfkjC8gmYQDKD5vhLDVwU"
 			]
 		}
 	},
