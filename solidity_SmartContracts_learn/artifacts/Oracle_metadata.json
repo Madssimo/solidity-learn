@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rand",
+						"type": "uint256"
+					}
+				],
+				"name": "feedRand",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rand",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hasing.sol": "Oracle"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hasing.sol": {
+			"keccak256": "0x43c59ab93ec3d3b20063f719b178dde92b6dfc69d4bf4e7e71ed83a46d0cf131",
+			"urls": [
+				"bzz-raw://8def3fc9ce4647beff254f649fbd90adaa945d7553862b5d4e198882d2206ec8",
+				"dweb:/ipfs/QmRVYCCk2fqycnmJVEfHbz9xhfwBu9HrnvPTgNu6Rq4Mm4"
+			]
+		}
+	},
+	"version": 1
+}
